@@ -1,0 +1,77 @@
+/* Estilos Generales */
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.text-rubik {
+  font-family: "Rubik Dirt", cursive;
+}
+
+/* Navbar */
+
+.icon-perfil {
+  width: 48px;
+}
+
+/* Hero Section */
+
+#Hero-Section {
+  background-image: url("../img/bj-hero-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+#Hero-Section button:hover {
+  color: rgba(197, 184, 184, 0.26) !important;
+  border-color: rgb(26, 25, 25) !important;
+}
+
+/* Acerca de Mi */
+
+.fa-html5 {
+  color: orangered;
+}
+
+.fa-css3-alt {
+  color: #0059d7;
+}
+
+.fa-bootstrap {
+  color: #5d0dce;
+}
+
+.fa-git-alt{
+  color: #E44D30;
+}
+
+.fa-github {
+  color: black;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand {
+    width: 100px;
+  }
+}
